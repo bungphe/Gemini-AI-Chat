@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini AI Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Basic scrollbar styling for webkit browsers */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: rgba(156, 163, 175, 0.5); /* Tailwind gray-400 with 50% opacity */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(107, 114, 128, 0.7); /* Tailwind gray-500 with 70% opacity */
+      }
+      /* For dark mode scrollbars */
+      html.dark ::-webkit-scrollbar-thumb {
+        background-color: rgba(75, 85, 99, 0.5); /* Tailwind gray-600 with 50% opacity */
+      }
+      html.dark ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(55, 65, 81, 0.7); /* Tailwind gray-700 with 70% opacity */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-markdown": "https://esm.sh/react-markdown@^10.1.0",
+    "zustand/": "https://esm.sh/zustand@^5.0.5/",
+    "zustand": "https://esm.sh/zustand@^5.0.5",
+    "mermaid": "https://esm.sh/mermaid@^11.6.0",
+    "rehype-highlight": "https://esm.sh/rehype-highlight@^7.0.2",
+    "rehype-raw": "https://esm.sh/rehype-raw@^7.0.0",
+    "remark-gfm": "https://esm.sh/remark-gfm@^4.0.1",
+    "idb-keyval": "https://esm.sh/idb-keyval@^6.2.2",
+    "nanoid": "https://esm.sh/nanoid@^5.1.5",
+    "@google/genai": "https://esm.sh/@google/genai@^1.4.0",
+    "highlight.js/": "https://esm.sh/highlight.js@^11.11.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
